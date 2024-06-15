@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
+
+@font-face {
+    font-family: "Stolzl";
+    src: url("../fonts/Stolzl-Light.eot");
+    src: url("../fonts/Stolzl-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Stolzl-Light.woff2") format("woff2"), url("../fonts/Stolzl-Light.woff") format("woff"), url("../fonts/Stolzl-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stolzl";
+    src: url("../fonts/Stolzl-Regular.eot");
+    src: url("../fonts/Stolzl-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Stolzl-Regular.woff2") format("woff2"), url("../fonts/Stolzl-Regular.woff") format("woff"), url("../fonts/Stolzl-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stolzl";
+    src: url("../fonts/Stolzl-Medium.eot");
+    src: url("../fonts/Stolzl-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Stolzl-Medium.woff2") format("woff2"), url("../fonts/Stolzl-Medium.woff") format("woff"), url("../fonts/Stolzl-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stolzl";
+    src: url("../fonts/Stolzl-Bold.eot");
+    src: url("../fonts/Stolzl-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Stolzl-Bold.woff2") format("woff2"), url("../fonts/Stolzl-Bold.woff") format("woff"), url("../fonts/Stolzl-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/PlayfairDisplay-Regular.eot");
+    src: url("../fonts/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/PlayfairDisplay-Bold.eot");
+    src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Bold.woff") format("woff"), url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Pramodia";
+    src: url("../fonts/Pramodia.eot");
+    src: url("../fonts/Pramodia.eot?#iefix") format("embedded-opentype"), url("../fonts/Pramodia.woff2") format("woff2"), url("../fonts/Pramodia.woff") format("woff"), url("../fonts/Pramodia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+}
+
+:root {
+    --first-font: "Stolzl", sans-serif;
+    --second-font: "Playfair Display", sans-serif;
+    --third-font: "Pramodia", sans-serif;
+    --color-white: #F9F9F9;
+    --color-black: #1C1E1E;
+    --color-brown: #9D8962;
+    --color-brown-darken: #837454;
+    --bgSidebar: #1B2536;
+    --border: #7077A1;
+    --boxShadow1: rgba(112, 119, 161, 0.4) 0px 2px 4px,
+    rgba(112, 119, 161, 0.3) 0px 7px 13px -3px,
+    rgba(112, 119, 161, 0.2) 0px -3px 0px inset;
+    --boxShadow2: rgba(98, 98, 98, 0.4) 0px 2px 4px,
+    rgba(98, 98, 98, 0.3) 0px 7px 13px -3px,
+    rgba(98, 98, 98, 0.2) 0px -3px 0px inset;
+    --boxShadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+    --bg: #070F2B;
+    --textColor: black;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
+    --btnColor:#FF9800;
+    --btnDeal:#059212;
+    --btnRed:#FF0000;
+}
+body {
+    width: 100vw;
+    position: relative;
+    min-height: 100vh;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    overflow-x: hidden;
+    letter-spacing: 0;
+    color: #9EC8B9;
+    background-color: var(--bgSidebar);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+.content {
+    margin: 20px auto;
+    flex-grow: 1;
+    background-color: var(--bg);
+    min-height: 100vh;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: var(--boxShadow);
+    overflow-x: hidden;
+}
+.main {
+    margin-left: 250px;
+    flex-grow: 1;
+}
+@media screen and (max-width: 1336px) {
+    .content {
+        max-width: 1280px;
+        transition: max-width 0.5s ease;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    .content {
+        max-width: 1024px;
+        transition: max-width 0.5s ease;
+    }
+    .main {
+        margin-left: 250px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content {
+        max-width: 768px;
+        transition: max-width 0.5s ease;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 640px;
+        transition: max-width 0.5s ease;
+    }
+
+    .main {
+        margin-left: 150px;
+
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content {
+        max-width: 475px;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+    .content {
+        max-width: 320px;
+    }
+
+    .main {
+        margin-left: 120px;
+
+    }
+
+}

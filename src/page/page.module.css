@@ -1,0 +1,133 @@
+.card {
+    text-align: left;
+    width: 400px;
+    font-size: 16px;
+    box-shadow: var(--boxShadow1);
+    margin: 0.5em;
+    transition: transform 0.3s ease;
+    span {
+        width: 50%;
+    }
+}
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.cardsInner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    gap: 0.2em;
+}
+
+.cardInner {
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.card li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 5px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.btn,
+.btnClosed,
+.btnDeclined {
+    border: 0;
+    outline: none;
+    width: 120px;
+    padding: 5px 2px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.btn {
+    background-color: var(--btnColor);
+}
+
+.btnClosed {
+    background-color: var(--btnDeal);
+}
+
+.btnDeclined {
+    background-color: var(--btnRed);
+}
+
+.bottom:hover {
+    cursor: pointer;
+}
+
+.addInner {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.add {
+
+}
+@media screen and (max-width: 1320px) {
+    .cardsInner {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .card {
+        font-size: 14px;
+
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .cardInner {
+        margin-left: 5px;
+
+    }
+
+    .card {
+        font-size: 12px;
+
+    }
+
+    .bottom {
+        margin: 10px 0 5px 0;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 80px;
+        padding: 2px 0 2px 0;
+        text-transform: lowercase;
+        font-size: 11px;
+
+    }
+
+}

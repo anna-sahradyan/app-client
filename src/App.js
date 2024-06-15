@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Sidebar from "./components/sidebar/Sidebar";
+import {Route, Routes} from "react-router-dom";
+import Home from "./components/home/Home";
+import Declined from "./page/Declined";
+import InProgress from "./page/InProgress";
+import DealClosed from "./page/DealClosed";
+import AllClients from "./page/AllClients";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <Sidebar>
+                <div className={'content'}>
+                    <Routes>
+                        <Route path={'/'} element={<Home/>}/>
+                        <Route index element={ <AllClients/>}/>
+                        <Route path={'/deal'} element={ <DealClosed/> }/>
+                        <Route path={'/progress'} element={ <InProgress/>}/>
+                        <Route path={'/declined'} element={ <Declined/>}/>
+                    </Routes>
+                </div>
+
+            </Sidebar>
+        </div>
+    );
+};
 
 export default App;

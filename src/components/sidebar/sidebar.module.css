@@ -1,0 +1,120 @@
+.sidebar {
+    width: 250px;
+    background-color: var(--bg);
+    min-height: 100dvh;
+    position: fixed;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border);
+    font-size: 16px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+}
+
+.scrollable_content {
+    min-height: 100vh;
+
+}
+
+.scrollableContent {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*Sidebar Item*/
+.headerSidebarItem {
+    padding: 5px;
+}
+
+.sidebarInner {
+    position: relative;
+    box-shadow: var(--boxShadow2);
+    min-height: 100vh;
+
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--boxShadow2)
+}
+
+.emailPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.center {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.sidebarItemsInner {
+    margin-top: 150px;
+    text-align: left;
+
+}
+
+.sidebarItems {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        max-width: 150px;
+    }
+
+    .sidebarInner {
+        box-shadow: none;
+
+    }
+
+    .avatar {
+        box-shadow: none;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+    .sidebar {
+        max-width: 120px;
+        font-size: 14px;
+    }
+
+    .emailPart {
+        word-break: break-all;
+        overflow-wrap: break-word;
+    }
+
+}
