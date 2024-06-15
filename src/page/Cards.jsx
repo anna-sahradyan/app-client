@@ -5,7 +5,7 @@ import {FaEdit, FaTimesCircle} from "react-icons/fa";
 import {RiDeleteBin5Line} from "react-icons/ri";
 import {TiPlusOutline} from "react-icons/ti";
 
-const Cards = () => {
+const Cards = ({home,openInput}) => {
     const [dealClosedBtn, setDealClosedBtn] = useState("declined")
     return (
         <div>
@@ -37,13 +37,13 @@ const Cards = () => {
                         </div>
                     </div>
                 ))}
-                <div className={s.card}>
+                {home === true && <div className={s.card}>
                     <div className={s.addInner}>
                         <h2 className={s.add}>Add card</h2>
-                        <TiPlusOutline size={40}/>
+                        <TiPlusOutline size={40} onClick={openInput}/>
                     </div>
+                </div>}
 
-                </div>
             </div>
         </div>
     );

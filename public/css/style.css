@@ -309,6 +309,10 @@ body {
     margin-left: 250px;
     flex-grow: 1;
 }
+
+
+
+
 @media screen and (max-width: 1336px) {
     .content {
         max-width: 1280px;

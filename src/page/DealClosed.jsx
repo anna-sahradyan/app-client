@@ -1,10 +1,11 @@
-// DealClosed.js
+
 import React from 'react';
+import Cards from "./Cards";
 
 const DealClosed = () => {
     return (
         <div>
-            <p>Deal Closed</p>
+         <Cards home={false}/>
         </div>
     );
 };

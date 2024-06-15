@@ -1,9 +1,10 @@
 import React from 'react';
+import Cards from "./Cards";
 
 const InProgress = () => {
     return (
         <div>
-<p>inProgress</p>
+            <Cards home={false}/>
         </div>
     );
 };

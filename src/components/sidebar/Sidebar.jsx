@@ -1,7 +1,6 @@
 import React from 'react';
 import  s from  './sidebar.module.css';
 import SidebarItems from "./SidebarItems";
-import {data} from "../../data/sidebarItems";
 const Sidebar = ({children}) => {
     return (
         <div className={'container'}>

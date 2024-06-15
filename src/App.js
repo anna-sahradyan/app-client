@@ -6,6 +6,7 @@ import Declined from "./page/Declined";
 import InProgress from "./page/InProgress";
 import DealClosed from "./page/DealClosed";
 import AllClients from "./page/AllClients";
+import InputForm from "./components/home/InputForm.";
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                         <Route path={'/deal'} element={ <DealClosed/> }/>
                         <Route path={'/progress'} element={ <InProgress/>}/>
                         <Route path={'/declined'} element={ <Declined/>}/>
+                        <Route path={'/form'} element={<InputForm/>}/>
                     </Routes>
                 </div>
 
